@@ -5,10 +5,10 @@
     </a>
     <nav>
       <ul class="flex">
-        <li><a href="#">Forside</a></li>
-        <li><a href="#">Om mig</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Kontakt</a></li>
+        <li><a href="index.php">Forside</a></li>
+        <li><a href="om.php">Om mig</a></li>
+        <li><a href="portfolio.php">Portfolio</a></li>
+        <li><a href="kontakt.php">Kontakt</a></li>
       </ul>
     </nav>
   </div>

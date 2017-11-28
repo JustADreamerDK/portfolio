@@ -5,12 +5,12 @@
   width: 1024px;
   margin: 0 auto;
   height: 100%;
-  background-color: rgba(0,0,0,.0);
 }
 
 /*Font sizes*/
 h1{
     font-size: 2em;
+    font-family: Sonsie One;
 }
 h2{
     font-size: 1.5em;
@@ -81,6 +81,10 @@ nav a:hover{
 }
 
 /*Margin/padding*/
+.margin-tb-50{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 /*BG-Color*/
 .black{
@@ -94,14 +98,14 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: open sans;
 }
-section{
+main{
   flex: 1;
 }
 
 header{
   height: 100px;
-  background: blue;
 }
 nav ul{
   display: flex;
@@ -117,4 +121,8 @@ nav ul li:first-child{
 
 footer{
     height: 40px;
+}
+img{
+  width: 33%;
+  height: 100%;
 }

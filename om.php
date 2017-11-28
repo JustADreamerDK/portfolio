@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Katja Kjer</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Sonsie+One" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/include.css" rel="stylesheet">
+    <link href="css/om.css" rel="stylesheet">
   </head>
 
   <body>
@@ -16,16 +18,24 @@
     <main>
       <div class="row black">
         <div class="content">
-          <h1 class="white">Hvem er Katja Kjer?</h1>
+          <h1 class="white">Hvem er jeg?</h1>
         </div>
       </div>
       <div class="row">
-        <div class="content flex">
-          <img src="img/logo.png">
-          <div>
-            <p>
-              Alcatra capicola tongue picanha pork loin. Venison meatloaf meatball tri-tip, filet mignon doner swine landjaeger andouille drumstick kevin ball tip fatback shoulder short ribs. Drumstick boudin chicken bresaola prosciutto frankfurter kielbasa ball tip turducken brisket. Pastrami corned beef pork turkey landjaeger biltong short loin salami picanha doner flank shank filet mignon ground round kevin.
-              Drumstick brisket pork short loin andouille bresaola burgdoggen rump fatback chicken bacon landjaeger biltong ball tip. Shankle jerky ground round ham tongue short ribs pig tail jowl beef ribs chicken. Capicola biltong buffalo strip steak chicken salami swine tenderloin brisket turkey pork belly. Rump buffalo jerky, t-bone burgdoggen alcatra hamburger brisket tail cow strip steak flank frankfurter spare ribs leberkas. Brisket shank turkey, chicken pig tongue ground round bacon prosciutto.
+        <div class="content flex space margin-tb-50">
+          <img class="left" src="img/mig.jpg">
+          <div class="right">
+            <p class="tekst">
+              Jeg hedder Katja, er 24 år, født og opvokset i Odense. Havde en lille detour til Viborg i et års tid hvor jeg fordybede mig indenfor video- og tv-produktion. Jeg har altid haft en interesse indenfor det kreative fag, startede med at fotografere allerede inden jeg fyldte de 10 år med mine forældres gamle kamera, som egentlig var bygget til video.
+            </p>
+            <p class="tekst">
+              Jeg øvede og øvede mig, blev bedre og bedre og da jeg endelig fyldte 18 år, brugte jeg noget af min børneopsparing på endelig at få mig et spejlreflekskamera, og så tog kvaliteten af mine billeder fart.
+            </p>
+            <p class="tekst">
+              Jeg blev i foråret 2017 færdig uddannet som Webintegrator, hvor jeg blot fik mod på endnu mere af det visuelle i det med at opbygge en hjemmeside, og søgte noget hvor jeg kunne kombinere kodning og det visuelle element, som blandt andet findes i både video og fotografering.
+            </p>
+            <p class="tekst">
+              I min fritid bruger jeg store mængder af min tid på sport. Jeg er selv aktiv rytter, rider et par stævner i ny og næ, også er jeg fuldstændig vild med ishockey, og har også været frivillig i både Odense Isstadion og i Herning Isstadion, hvor det odenseanske hold, Odense Bulldogs er og bliver mit hjertebarn, og jeg glæder mig til den dag hvor de kan løfte guldet over hovedet.
             </p>
           </div>
         </div>
@@ -38,10 +48,31 @@
         </div>
       </div>
       <div class="row">
-        <div class="content">
-          <p>
-            Drumstick brisket pork short loin andouille bresaola burgdoggen rump fatback chicken bacon landjaeger biltong ball tip. Shankle jerky ground round ham tongue short ribs pig tail jowl beef ribs chicken. Capicola biltong buffalo strip steak chicken salami swine tenderloin brisket turkey pork belly. Rump buffalo jerky, t-bone burgdoggen alcatra hamburger brisket tail cow strip steak flank frankfurter spare ribs leberkas. Brisket shank turkey, chicken pig tongue ground round bacon prosciutto.
-          </p>
+        <div class="content flex wrap space margin-tb-50">
+          <div>
+            <h2>
+              Stillbilleder
+            </h2>
+            <p>
+              Jeg kan lave stillbilleder
+            </p>
+          </div>
+          <div>
+            <h2>
+              Levende billeder
+            </h2>
+            <p>
+              Jeg kan lave levende billeder
+            </p>
+          </div>
+          <div>
+            <h2>
+              Hjemmeside
+            </h2>
+            <p>
+              Jeg kan lave hjemmesider
+            </p>
+          </div>
         </div>
       </div>
     </main>
