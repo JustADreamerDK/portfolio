@@ -1,0 +1,120 @@
+.row{
+  width: 100%;
+}
+.content{
+  width: 1024px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: rgba(0,0,0,.0);
+}
+
+/*Font sizes*/
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.25em;
+}
+h4{
+    font-size: 1em;
+}
+h5{
+    font-size: .8em;
+}
+h6{
+    font-size: .7em;
+}
+p{
+  font-size: 1em;
+}
+
+/*Font styling*/
+a{
+  text-decoration: none;
+}
+nav a{
+  color: black;
+}
+nav a:hover{
+  text-decoration: line-through;
+}
+.white{
+  color: white;
+}
+
+/*Flex*/
+.flex{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.space{
+    justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
+}
+.center-center{
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    align-items: center;
+}
+.middle{
+    justify-content: center;
+}
+.right{
+    justify-content: flex-end;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.justify{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Margin/padding*/
+
+/*BG-Color*/
+.black{
+  background-color: black
+}
+.white{
+}
+
+/*General*/
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+section{
+  flex: 1;
+}
+
+header{
+  height: 100px;
+  background: blue;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li{
+  border-left: 1px solid black;
+  padding: 0 40px;
+}
+nav ul li:first-child{
+  border-left: 0;
+}
+
+footer{
+    height: 40px;
+}
