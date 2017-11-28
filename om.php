@@ -71,13 +71,18 @@
           </div>
           <div class="box">
             <h2>
-              Hjemmeside
+              Hjemmesider
             </h2>
             <p>
               Jeg kan lave en hjemmeside fra start til slut. Jeg koder i HTML5, CSS og PHP, samt kan jeg lave grafisk arbejde, hvor der gøres brug af adobepakken.
               Har du idéerne, er jeg personen som kan føre dem til virkelighed. Har du blot et mål, kan jeg også komme med idéerne, om hvordan dit produkt, vil blive præsenteret bedst muligt.
             </p>
           </div>
+        </div>
+        <div class="content margin-b-50 flex center-center">
+          <h3>
+            <a href="portfolio.php">Se eksempler på hvad jeg kan</a>
+          </h3>
         </div>
       </div>
     </main>

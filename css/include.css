@@ -85,6 +85,18 @@ nav a:hover{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.margin-tb-20{
+  margin: 20px 0px;
+}
+.margin-t-20{
+  margin-top: 20px;
+}
+.margin-t-5{
+  margin-top: 5px;
+}
+.margin-b-50{
+  margin-bottom: 50px;
+}
 .padding-tb-20{
   padding: 20px 0px;
 }
@@ -125,8 +137,4 @@ nav ul li:first-child{
 
 footer{
     height: 40px;
-}
-img{
-  width: 33%;
-  height: 100%;
 }
