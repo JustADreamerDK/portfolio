@@ -8,6 +8,7 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/include.css" rel="stylesheet">
     <link href="css/om.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo.png">
   </head>
 
   <body>
@@ -16,7 +17,7 @@
     ?>
 
     <main>
-      <div class="row black">
+      <div class="row black padding-tb-20">
         <div class="content">
           <h1 class="white">Hvem er jeg?</h1>
         </div>
@@ -40,7 +41,7 @@
           </div>
         </div>
       </div>
-      <div class="row black">
+      <div class="row black padding-tb-20">
         <div class="content">
           <h1 class="white">
             Hvad kan jeg?
@@ -49,28 +50,32 @@
       </div>
       <div class="row">
         <div class="content flex wrap space margin-tb-50">
-          <div>
+          <div class="box">
             <h2>
               Stillbilleder
             </h2>
             <p>
-              Jeg kan lave stillbilleder
+              Jeg har eget udstyr til stillbilled fotografering. Jeg er specialiseret indenfor sportsfotografering, især indenfor ridesporten og ishockey.<br>
+              Jeg har også lidt erfaring indenfor portrætfotografering, med både voksne og børn.
+              Jeg bruger adobepakken når billederne bliver efterbehandlet efterfølgende.
             </p>
           </div>
-          <div>
+          <div class="box">
             <h2>
               Levende billeder
             </h2>
             <p>
-              Jeg kan lave levende billeder
+              Jeg har erfaring indenfor video-produktion. Blandt andet OB og ENG produktion, hvor det primært har været indenfor sportsverdenen, blandt andet med ekstremløb og motorsport.<br>
+              Jeg har også erfaring med reklameproduktioner og nyhedsmediet.
             </p>
           </div>
-          <div>
+          <div class="box">
             <h2>
               Hjemmeside
             </h2>
             <p>
-              Jeg kan lave hjemmesider
+              Jeg kan lave en hjemmeside fra start til slut. Jeg koder i HTML5, CSS og PHP, samt kan jeg lave grafisk arbejde, hvor der gøres brug af adobepakken.
+              Har du idéerne, er jeg personen som kan føre dem til virkelighed. Har du blot et mål, kan jeg også komme med idéerne, om hvordan dit produkt, vil blive præsenteret bedst muligt.
             </p>
           </div>
         </div>

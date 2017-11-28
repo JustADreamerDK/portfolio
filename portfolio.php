@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Sonsie+One" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/include.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo.png">
   </head>
 
   <body>

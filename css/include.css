@@ -10,7 +10,7 @@
 /*Font sizes*/
 h1{
     font-size: 2em;
-    font-family: Sonsie One;
+    font-family: Sonsie One, sans-serif;
 }
 h2{
     font-size: 1.5em;
@@ -85,10 +85,14 @@ nav a:hover{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.padding-tb-20{
+  padding: 20px 0px;
+}
+
 
 /*BG-Color*/
 .black{
-  background-color: black
+  background-color: black;
 }
 .white{
 }
@@ -98,7 +102,7 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: open sans;
+  font-family: open sans, sans-serif;
 }
 main{
   flex: 1;
