@@ -1,0 +1,19 @@
+.produkt{
+    max-width: 100%;
+}
+.box{
+    position: relative;
+}
+.titel{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2:hover{
+    text-decoration: line-through;
+}
+.hover:hover{
+    opacity: 0.7;
+}

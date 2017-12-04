@@ -1,0 +1,30 @@
+form{
+    width: 400px;
+}
+input[type=email], input[type=text]{
+    width: 320px;
+    height: 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 0px 5px;
+}
+textarea{
+    width: 378px;
+    height: 226px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+}
+input[type=submit]{
+    padding: 10px 50px;
+    font-size: 1em;
+    color: white;
+    background: black;
+    border: 0px;
+}
+input[type=submit]:hover{
+    text-decoration: line-through;
+}
+h4{
+    line-height: 150%;
+}

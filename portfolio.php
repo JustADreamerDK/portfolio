@@ -1,3 +1,9 @@
+<?php
+session_start();
+include "include/connect.php";
+include "phpcode/crud.php";
+$type = $_GET['type'];
+ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -26,58 +32,58 @@
         <div class="content flex center-center margin-t-20">
           <ul class="flex nav space">
             <li><a href="portfolio.php"><h4>Alle</h4></a></li>
-            <li><a href=""><h4>Still billeder</h4></a></li>
-            <li><a href=""><h4>Levende billeder</h4></a></li>
-            <li><a href=""><h4>Hjemmesider</h4></a></li>
+            <li><a href="portfolio.php?type=still"><h4>Still billeder</h4></a></li>
+            <li><a href="portfolio.php?type=levende"><h4>Levende billeder</h4></a></li>
+            <li><a href="portfolio.php?type=hjemmeside"><h4>Hjemmesider</h4></a></li>
           </ul>
         </div>
         <div class="content">
           <div class="flex wrap space">
-
+              <?php
+              if($type <> ''){
+                  $produkt = getProductByType($type);
+                  while ($row = mysqli_fetch_assoc($produkt)){
+                  ?>
+                <div class="box margin-tb-20 ">
+                  <div class="flex center-center">
+                    <h2 class="margin-tb-20"><?php echo $row['titel']; ?></h2>
+                  </div>
+                  <img class="produkt" src="img/<?php echo $row['img'];?>">
+                  <p>
+                      <?php
+                      $beskrivelse = mb_substr($row['tekst'], 0, 50, 'UTF-8');
+                      $tal = mb_strrpos($beskrivelse, ' ', 0, 'UTF-8');
+                      $beskrivelse = mb_substr($row['tekst'], 0, $tal, 'UTF-8');
+                      echo $beskrivelse . '...';
+                      ?>
+                  </p>
+                  <a href="readmore.php?id=<?php echo $row['id'];?>"><h4 class="margin-t-5">Læs mere</h4></a>
+                </div>
+                <?php
+                }
+              }else{
+              $produkter = getProducts();
+              while ($multirow = mysqli_fetch_assoc($produkter)){
+              ?>
             <div class="box margin-tb-20 ">
               <div class="flex center-center">
-                <h2 class="margin-tb-20">Julefotografering</h2>
+                <h2 class="margin-tb-20"><?php echo $multirow['titel']; ?></h2>
               </div>
-              <img class="produkt" src="img/olina.jpg">
+              <img class="produkt" src="img/<?php echo $multirow['img'];?>">
               <p>
-                Alcatra capicola tongue picanha pork loin. Venison meatloaf...
+                  <?php
+                  $beskrivelse = mb_substr($multirow['tekst'], 0, 50, 'UTF-8');
+                  $tal = mb_strrpos($beskrivelse, ' ', 0, 'UTF-8');
+                  $beskrivelse = mb_substr($multirow['tekst'], 0, $tal, 'UTF-8');
+                  echo $beskrivelse . '...';
+                  ?>
               </p>
-              <a href="readmore.php"><h4 class="margin-t-5">Læs mere</h4></a>
+              <a href="readmore.php?id=<?php echo $multirow['id'];?>"><h4 class="margin-t-5">Læs mere</h4></a>
             </div>
-
-            <div class="box margin-tb-20 ">
-              <div class="flex center-center">
-                <h2 class="margin-tb-20">Danish Supertourisme</h2>
-              </div>
-              <img class="produkt" src="img/dst.jpg">
-              <p>
-                Alcatra capicola tongue picanha pork loin. Venison meatloaf...
-              </p>
-              <a href="readmore.php"><h4 class="margin-t-5">Læs mere</h4></a>
-            </div>
-
-            <div class="box margin-tb-20 ">
-              <div class="flex center-center">
-                <h2 class="margin-tb-20">Fyens Kennel Klub</h2>
-              </div>
-              <img class="produkt" src="img/fkk.jpg">
-              <p>
-                Alcatra capicola tongue picanha pork loin. Venison meatloaf...
-              </p>
-              <a href="readmore.php"><h4 class="margin-t-5">Læs mere</h4></a>
-            </div>
-
-            <div class="box margin-tb-20 ">
-              <div class="flex center-center">
-                <h2 class="margin-tb-20">SEPE Extreme Challenge 2017</h2>
-              </div>
-              <img class="produkt" src="img/sepe.jpg">
-              <p>
-                Alcatra capicola tongue picanha pork loin. Venison meatloaf...
-              </p>
-              <a href="readmore.php"><h4 class="margin-t-5">Læs mere</h4></a>
-            </div>
-
+            <?php
+            }
+            }
+             ?>
 
           </div>
         </div>
