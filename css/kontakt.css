@@ -5,25 +5,27 @@ input[type=email], input[type=text]{
     width: 320px;
     height: 20px;
     margin-bottom: 10px;
-    border: 1px solid black;
+    border: 1px solid #0a0c0d;
     padding: 0px 5px;
 }
 textarea{
     width: 378px;
-    height: 226px;
+    height: 201px;
     margin: 10px 0px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid #0a0c0d;
 }
 input[type=submit]{
     padding: 10px 50px;
-    font-size: 1em;
-    color: white;
-    background: black;
+    font-size: 16px;
+    color: #fafdff;
+    background: #0a0c0d;
     border: 0px;
 }
 input[type=submit]:hover{
-    text-decoration: line-through;
+    background: #548ba3;
+    color: #fafdff;
+    cursor: pointer;
 }
 h4{
     line-height: 150%;

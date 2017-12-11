@@ -1,19 +1,38 @@
 .produkt{
     max-width: 100%;
+    max-height: 550px;
 }
 .box{
     position: relative;
 }
 .titel{
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(84,139,163,.8);
+    position: absolute;
+    top: 75%;
+    padding: 25px 40px;
+}
+.titel:hover{
+    background: rgb(84,139,163);
+}
+.button{
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
-h2:hover{
-    text-decoration: line-through;
+
+.fade{
+    animation:fading 10s infinite;
 }
-.hover:hover{
-    opacity: 0.7;
+@keyframes fading{
+    0%{
+        opacity:0
+        }
+    10%{
+        opacity:1;
+    }
+    90%{
+        opacity:1;
+    }
+    100%{
+        opacity:0
+        }
 }

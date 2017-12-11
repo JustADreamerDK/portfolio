@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Katja Kjer</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Sonsie+One" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>Katja Kjer</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik:700" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/include.css" rel="stylesheet">
     <link href="css/kontakt.css" rel="stylesheet">
@@ -46,7 +48,7 @@
                       <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
                       <div class="margin-t-10" style='overflow:hidden;height:400x;
                            width:500px;'>
-                          <div id='gmap_canvas' style='height:400px;
+                          <div id='gmap_canvas' style='height:375px;
                                width:500px;'>
                            </div>
                           <style>#gmap_canvas img{
@@ -65,7 +67,7 @@
                                   map: map, position: new google.maps.LatLng(55.3424924, 10.3155309, 16.75)
                               });
                               infowindow = new google.maps.InfoWindow({
-                                  content: '<h3>Den kreative base</h3>'}
+                                  content: '<h4>Den kreative base</h4>'}
                               );
                               google.maps.event.addListener(marker, 'click', function () {
                                   infowindow.open(map, marker);

@@ -1,17 +1,30 @@
 img{
   width: 100%;
 }
-a{
-  color: black;
-}
-a:hover{
-  text-decoration: line-through;
-}
 p{
   line-height: 150%;
   margin-top: 20px;
   margin-bottom: 10px;
 }
-h4{
+.back{
   margin-bottom: 50px;
+}
+.button{
+    position: absolute;
+    width: 1024px;
+    top: 144px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #fafdff;
+    background: rgba(84,139,163,.8);
+    border: 0px;
+}
+button:hover{
+    background: rgb(84,139,163);
+}
+iframe{
+    width: 560px;
 }

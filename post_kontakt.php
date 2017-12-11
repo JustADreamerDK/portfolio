@@ -5,8 +5,10 @@ $email = $_POST['email'];
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Katja Kjer</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Sonsie+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik:700" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/include.css" rel="stylesheet">
     <link href="css/kontakt.css" rel="stylesheet">
@@ -19,11 +21,11 @@ $email = $_POST['email'];
     ?>
 
     <main>
-      <div class="row black padding-tb-20">
+      <!-- <div class="row black padding-tb-20">
         <div class="content">
           <h1 class="white">Kontakt mig</h1>
         </div>
-      </div>
+      </div> -->
       <div class="row">
         <div class="content margin-tb-50">
             <?php

@@ -9,41 +9,48 @@
 
 /*Font sizes*/
 h1{
-    font-size: 2em;
-    font-family: Sonsie One, sans-serif;
+    font-size: 32px;
+    font-family: Rubik, sans-serif;
 }
 h2{
-    font-size: 1.5em;
+    font-size: 24px;
 }
 h3{
-    font-size: 1.25em;
+    font-size: 20px;
 }
 h4{
-    font-size: 1em;
+    font-size: 16px;
 }
 h5{
-    font-size: .8em;
+    font-size: 12px;
 }
 h6{
-    font-size: .7em;
+    font-size: 11px;
 }
 p{
-  font-size: 1em;
+  font-size: 16px;
 }
 
 /*Font styling*/
 a{
   text-decoration: none;
+  color: #0a0c0d;
 }
 nav a{
-  color: black;
+  color: #0a0c0d;
+  padding: 25px 40px;
 }
 nav a:hover{
-  text-decoration: line-through;
+  background: #548ba3;
+  color: #fafdff;
 }
 .white{
-  color: white;
+  color: #fafdff;
 }
+.hover:hover{
+    color: #548ba3;
+}
+
 
 /*Flex*/
 .flex{
@@ -104,9 +111,7 @@ nav a:hover{
 
 /*BG-Color*/
 .black{
-  background-color: black;
-}
-.white{
+  background-color: #548ba3;
 }
 
 /*General*/
@@ -115,24 +120,19 @@ body{
   display: flex;
   flex-direction: column;
   font-family: open sans, sans-serif;
+  background: #fafdff;
+  color: #0a0c0d;
+  overflow-y: scroll;
 }
 main{
   flex: 1;
 }
 
 header{
-  height: 100px;
+  height: 72px;
 }
 nav ul{
   display: flex;
-  justify-content: space-between;
-}
-nav ul li{
-  border-left: 1px solid black;
-  padding: 0 40px;
-}
-nav ul li:first-child{
-  border-left: 0;
 }
 
 footer{
