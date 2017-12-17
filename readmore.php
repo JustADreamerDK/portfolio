@@ -57,7 +57,7 @@ $row = mysqli_fetch_assoc($produkt)
                   <button onclick="plusDivs(1)">&#10095;</button>
               </div>
             </div>
-          <p><?php echo $row['tekst']; ?></p>
+          <p><?php echo str_replace("\n", "<br>", $row['tekst']); ?></p>
           <a href="portfolio.php">
             <h4 class="back hover">Tilbage</h4>
           </a>
@@ -68,23 +68,6 @@ $row = mysqli_fetch_assoc($produkt)
     <?php
     include "include/footer.php";
     ?>
-
-    <!-- <script>
-    var myIndex = 0;
-    carousel();
-
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("slide");
-        for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 4000);
-        }
-    </script> -->
 
     <script>
     var slideIndex = 1;

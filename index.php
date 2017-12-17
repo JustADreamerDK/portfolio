@@ -44,7 +44,7 @@ include "phpcode/crud.php";
     <?php
     include "include/footer.php";
     ?>
-
+    
     <script>
     var myIndex = 0;
     carousel();
@@ -58,7 +58,7 @@ include "phpcode/crud.php";
         myIndex++;
         if (myIndex > x.length) {myIndex = 1}
         x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 4000);
+        setTimeout(carousel, 7500);
         }
     </script>
   </body>

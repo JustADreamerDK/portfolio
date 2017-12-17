@@ -15,16 +15,95 @@ p{
     top: 144px;
 }
 button{
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
+    width: 65px;
+    height: 65px;
+    font-size: 32px;
     color: #fafdff;
     background: rgba(84,139,163,.8);
     border: 0px;
+    cursor: pointer;
 }
 button:hover{
     background: rgb(84,139,163);
 }
 iframe{
-    width: 560px;
+    width: 1024px;
+    height: 575px;
+}
+@media screen and (max-width: 1000px) {
+    .button{
+        max-width: 900px;
+    }
+    iframe{
+        max-width: 900px;
+        max-height: 505px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .button{
+        max-width: 800px;
+    }
+    iframe{
+        max-width: 800px;
+        max-height: 488px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .button{
+        max-width: 700px;
+    }
+    iframe{
+        max-width: 700px;
+        max-height: 427px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .button{
+        max-width: 600px;
+    }
+    iframe{
+        max-width: 600px;
+        max-height: 366px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .button{
+        max-width: 500px;
+    }
+    iframe{
+        max-width: 500px;
+        max-height: 305px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .button{
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .button{
+        max-width: 400px;
+    }
+    iframe{
+        max-width: 400px;
+        max-height: 244px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .button{
+        max-width: 300px;
+    }
+    iframe{
+        max-width: 300px;
+        max-height: 183px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .button{
+        max-width: 200px;
+    }
+    iframe{
+        max-width: 200px;
+        max-height: 122px;
+    }
 }

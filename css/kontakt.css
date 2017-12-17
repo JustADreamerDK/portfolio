@@ -30,3 +30,49 @@ input[type=submit]:hover{
 h4{
     line-height: 150%;
 }
+iframe{
+    width: 500px;
+    height: 375px;
+}
+@media screen and (max-width: 900px) {
+    div .indhold{
+        align-items: center;
+        flex-direction: column;
+    }
+    iframe{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    iframe{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 400px) {
+    iframe{
+        width: 300px;
+    }
+    form{
+        width: 300px;
+    }
+    input[type=email], input[type=text]{
+        width: 220px;
+    }
+    textarea{
+        width: 278px;
+    }
+}
+@media screen and (max-width: 300px) {
+    iframe{
+        width: 250px;
+    }
+    form{
+        width: 250px;
+    }
+    input[type=email], input[type=text]{
+        width: 170px;
+    }
+    textarea{
+        width: 228px;
+    }
+}

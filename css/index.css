@@ -20,19 +20,24 @@
 }
 
 .fade{
-    animation:fading 10s infinite;
+    animation:fading 7.5s infinite;
 }
 @keyframes fading{
     0%{
         opacity:0
         }
-    10%{
+    20%{
         opacity:1;
     }
-    90%{
+    80%{
         opacity:1;
     }
     100%{
         opacity:0
         }
+}
+@media screen and (max-width: 450px) {
+    .titel{
+        top: 60%;
+    }
 }

@@ -2,7 +2,7 @@
   width: 100%;
 }
 .content{
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
   height: 100%;
 }
@@ -137,4 +137,44 @@ nav ul{
 
 footer{
     height: 40px;
+}
+
+@media screen and (max-width: 650px) {
+    .content{
+        max-width: 650px;
+    }
+    header div{
+        flex-direction: column;
+    }
+    header{
+        margin-bottom: 20px;
+    }
+    nav a:hover{
+        padding: 10px 40px;
+    }
+    main div .margin-tb-50{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 560px) {
+    nav ul{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    nav ul li{
+        padding: 2px;
+    }
+    header{
+        margin-bottom: 80px;
+    }
+    nav a{
+        padding: 0px;
+    }
+    nav a:hover{
+        padding: 0px;
+    }
 }

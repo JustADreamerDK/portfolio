@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="content flex margin-tb-50 space">
+        <div class="content flex margin-tb-50 space indhold">
           <form action="post_kontakt.php" method="post">
                 <div class="flex space">
             <label for="navn"><h3>Navn:</h3></label>
@@ -43,40 +43,7 @@
           </form>
 
           <div>
-              <div>
-                  <div>
-                      <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-                      <div class="margin-t-10" style='overflow:hidden;height:400x;
-                           width:500px;'>
-                          <div id='gmap_canvas' style='height:375px;
-                               width:500px;'>
-                           </div>
-                          <style>#gmap_canvas img{
-                                  max-width:none!important;
-                                  background:none!important
-                              }
-                          </style>
-                      </div>
-                      <script type='text/javascript'>
-                          function init_map() {
-                              var myOptions = {
-                                  zoom: 15, center: new google.maps.LatLng(55.3424924, 10.3155309, 16.75), mapTypeId: google.maps.MapTypeId.ROADMAP
-                              };
-                              map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-                              marker = new google.maps.Marker({
-                                  map: map, position: new google.maps.LatLng(55.3424924, 10.3155309, 16.75)
-                              });
-                              infowindow = new google.maps.InfoWindow({
-                                  content: '<h4>Den kreative base</h4>'}
-                              );
-                              google.maps.event.addListener(marker, 'click', function () {
-                                  infowindow.open(map, marker);
-                              }
-                              );
-                              infowindow.open(map, marker);
-                          }
-                          google.maps.event.addDomListener(window, 'load', init_map);
-                      </script>
+            <iframe src="https://www.google.com/maps/embed/v1/place?q=stensvang%2C%20odens&key=AIzaSyC7Mg_GNTIZdsJPim5u3A4SHa88h2hP2k4" allowfullscreen></iframe>
           </div>
         </div>
       </div>
