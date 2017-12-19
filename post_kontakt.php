@@ -4,7 +4,7 @@ $email = $_POST['email'];
 ?>
 <!DOCTYPE html>
 <html>
-  <head>
+  <head lang="da">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Katja Kjer</title>

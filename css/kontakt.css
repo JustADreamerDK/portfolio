@@ -34,6 +34,9 @@ iframe{
     width: 500px;
     height: 375px;
 }
+label{
+    font-size: 20px;
+}
 @media screen and (max-width: 900px) {
     div .indhold{
         align-items: center;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -24,7 +24,7 @@
       </div>
       <div class="row">
         <div class="content flex space margin-tb-50">
-          <img class="left" src="img/mig.jpg">
+          <img class="left" src="img/mig.jpg" alt="portræt billede">
           <div class="right">
             <p class="tekst">
               Jeg hedder Katja, er 24 år, født og opvokset i Odense. Havde en lille detour til Viborg i et års tid hvor jeg fordybede mig indenfor video- og tv-produktion. Jeg har altid haft en interesse indenfor det kreative fag, startede med at fotografere allerede inden jeg fyldte de 10 år med mine forældres gamle kamera, som egentlig var bygget til video.

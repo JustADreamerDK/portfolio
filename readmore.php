@@ -7,7 +7,7 @@ $produkt = getProduct($id);
 $row = mysqli_fetch_assoc($produkt)
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="da">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -48,7 +48,7 @@ $row = mysqli_fetch_assoc($produkt)
               }
             while($rowImg = mysqli_fetch_assoc($img)){
                 ?>
-                <img class="slide fade produkt" src="img/<?php echo $rowImg['img'];?>">
+                <img class="slide fade produkt" src="img/<?php echo $rowImg['img'];?>" alt="produkt billede">
             <?php
             }
              ?>

@@ -4,7 +4,7 @@ include "include/connect.php";
 include "phpcode/crud.php";
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="da">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -29,7 +29,7 @@ include "phpcode/crud.php";
             ?>
             <a class="slide fade" href="readmore.php?id=<?php echo $row['id'];?>">
               <div class="box flex center-center">
-                  <img class="produkt" src="img/<?php echo $row['cover_img'];?>">
+                  <img class="produkt" src="img/<?php echo $row['cover_img'];?>" alt="produkt cover">
                     <div class="titel padding-tb-20">
                         <h4 class="white">Læs om projektet</h4>
                     </div>
@@ -44,7 +44,7 @@ include "phpcode/crud.php";
     <?php
     include "include/footer.php";
     ?>
-    
+
     <script>
     var myIndex = 0;
     carousel();

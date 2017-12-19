@@ -6,6 +6,9 @@
   margin: 0 auto;
   height: 100%;
 }
+.navigation{
+    width: 1024px;
+}
 
 /*Font sizes*/
 h1{

@@ -5,7 +5,7 @@ include "phpcode/crud.php";
 $type = $_GET['type'];
  ?>
 <!DOCTYPE html>
-<html>
+<html lang="da">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -54,7 +54,7 @@ $type = $_GET['type'];
                   $img = getImagesById($produktId);
                   $rowImg = mysqli_fetch_assoc($img);
                       ?>
-                      <img class="produkt" src="img/<?php echo $rowImg['img'];?>">
+                      <img class="produkt" src="img/<?php echo $rowImg['img'];?>" alt="produkt billede">
                   <p>
                       <?php
                       $beskrivelse = mb_substr($row['tekst'], 0, 50, 'UTF-8');
@@ -80,7 +80,7 @@ $type = $_GET['type'];
               $img = getImagesById($produktId);
               $rowImg = mysqli_fetch_assoc($img);
                   ?>
-                  <img class="produkt" src="img/<?php echo $rowImg['img'];?>">
+                  <img class="produkt" src="img/<?php echo $rowImg['img'];?>" alt="produkt billede">
               <p>
                   <?php
                   $beskrivelse = mb_substr($multirow['tekst'], 0, 50, 'UTF-8');

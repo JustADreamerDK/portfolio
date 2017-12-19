@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head lang="da">
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1.0">
       <title>Katja Kjer</title>
@@ -26,17 +26,17 @@
         <div class="content flex margin-tb-50 space indhold">
           <form action="post_kontakt.php" method="post">
                 <div class="flex space">
-            <label for="navn"><h3>Navn:</h3></label>
+            <label for="navn">Navn:</label>
             <input type="text" name="navn" required>
                 </div>
                 <div class="flex space">
-                    <label for="email"><h3>Mail:</h3></label>
+                    <label for="email">Mail:</label>
                     <input type="email" name="email" required>
                 </div>
             <h3>
               Skriv besked
             </h3>
-            <textarea name="besked" row="10" col="10"></textarea>
+            <textarea name="besked"></textarea>
             <div class="flex right">
                 <input type="submit" value="Send">
             </div>

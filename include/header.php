@@ -1,7 +1,7 @@
 <header class="flex row">
-  <div class="content flex space center">
+  <div class="content flex space center navigation">
     <a href="index.php">
-      <img src="img\logo.png">
+      <img src="img\logo.png" alt="KKjer logo">
     </a>
     <nav>
       <ul class="flex">
